@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Figuras Geometricas</title>
+</head>
+
+<body>
+    <header class="header__title">
+        <h1>Figuras Geometricas</h1>
+    </header>
+
+    <section class="container">
+        <section class="container__title">
+            <h2>Este es mi primer taller del curso practico de JavaScript</h2>
+            <p>Confiable y diseñado para su uso diario.</p>
+        </section>
+        <section class="container__body">
+            <section class="container__card">
+
+                <div class="container__card-info">
+                    <img src="https://img.icons8.com/material-outlined/100/000000/rounded-square.png" />
+                    <h2>Cuadrado</h2>
+                    <p>Diguita cuanto mide cada lado de su cuadrado</p>
+
+                </div>
+                <div class="container__card-size">
+                    <input type="number" min="1" id="inputTringulo" placeholder="Ejemplo 3">
+                    <button id="btnCalcularPerimetroCuadrado">Calcular el perimetro</button>
+                    <button id="btnCalcularAreaCuadrado">Calcular el area</button>
+                    <p id="container__card-resulCuadrado"></p>
+
+                </div>
+            </section>
+
+            <section class="container__card">
+
+                <div class="container__card-info">
+                    <img src="https://img.icons8.com/material-rounded/96/000000/triangle-stroked.png" />
+                    <h2>Triángulo</h2>
+                    <p>Diguita cuanto mide cada lado de su triangulo</p>
+
+                </div>
+                <div class="container__card-size">
+                    <input type="number" min="1" id="sideA" placeholder="Lado 1">
+                    <input type="number" min="1" id="sideB" placeholder="Lado 2">
+                    <input type="number" min="1" id="Base" placeholder="Base">
+                    <button id="btnCalcularPerimetroTriangulo">Calcular el perimetro</button>
+                    <button id="btnCalcularAreaTriangulo">Calcular el area</button>
+
+                    <p id="container__card-resulTringulo"></p>
+
+                </div>
+
+            </section>
+            <section class="container__card">
+
+                <div class="container__card-info">
+                    <img src="https://img.icons8.com/ios-glyphs/90/000000/circled.png" />
+                    <h2>Círculo</h2>
+                    <p>Diguita cuanto mide cada lado de su circulo</p>
+                </div>
+                <div class="container__card-size">
+
+                    <input type="number" min="1" id="inputCirculo" placeholder="Ejemplo 3">
+                    <button id="btnCalcularPerimetroCirculo">Calcular el perimetro</button>
+                    <button id="btnCalcularAreaCirculo">Calcular el area</button>
+                    <p id="container__card-resulCirculo"></p>
+                </div>
+            </section>
+        </section>
+
+    </section>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
