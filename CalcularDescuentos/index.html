@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calcula el decuento de tu producto?</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Calcular Descuento</h1>
+        <div class="container__main-card">
+            <div class="container__main-card-title">
+                <h2>Descuento de producto</h2>
+            </div>
+            <div class="container__main-form">
+                <div class="form-label">
+                    <label for="">Precio del producto</label>
+                    <input type="number" id="inputPrice" placeholder="5000" min="0">
+                </div>
+                <div class="form-label">
+                    <label for="">Aplicar descuento</label>
+                    <input type="number" id="inputDiscount" placeholder="50%" min="0" max="100">
+                </div>
+                <div class="form-label">
+                    <label for="">Aplicar cupon de descuento</label>
+                    <input type="text" id="inputCouponDiscount" placeholder="CUPON100">
+                </div>
+
+            </div>
+            <div class="container-action">
+                <button type="button" class="btnDiscount" id="btnDiscount">Calcular descuento</button>
+                <button type="button" class="clearHistory" id="clearHistory">Limpiar historial</button>
+            </div>
+        </div>
+        <div class="history-discount">
+            <h4>Historial de operaciones</h4>
+            <div class="container-message" id="divContainerMessage">
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>

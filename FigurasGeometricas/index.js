@@ -5,7 +5,7 @@ import {
 	areaTriangulo,
 	perimetroCirculo,
 	areaCirculo,
-} from './util.js';
+} from '../util.js';
 
 const d = document;
 
